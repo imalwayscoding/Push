@@ -1,0 +1,20 @@
+name: Push(Kotlin)
+main: com.github.imalwayscoding.plugin.PushPlugin
+version: 1.0
+api-version: 1.16
+depend: [Kotlin]
+
+commands:
+  push:
+    usage: /<command> <info|player|<value>> [<player>] [<value>]
+    permission: push.use
+    description: a push command.
+  p:
+    usage: /<command> <info|player|<value>> [<player>] [<value>]
+    permission: push.use
+    description: a push command.
+
+permissions:
+  push.use:
+    default: op
+    description: Push Command Permission.
